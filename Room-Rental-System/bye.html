@@ -1,0 +1,41 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="bye.css">
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+</head>
+<header>
+<button onclick="goBack()">Go Back</button>
+</header>
+<body>
+<form action="bye.jsp" style="border:1px solid #ccc">
+  <div class="container">
+    <h1>BYE</h1>
+    <p>PLEASE FILL UP FOOLOWINNG DEATAIL FOR BYING ROOM</p>
+    <hr>
+     <label for="name"><b>CITY</b></label>
+    <input type="text" placeholder="Enter city Name" name="city" required>
+	 <label for="name"><b>AREA</b></label>
+    <input type="text" placeholder="Enter Area Name" name="name" required>
+
+    <label for="room"><b>SELECT THE ROOM</b></label>&nbsp&nbsp
+	<select name="room">
+	<option value="1rk">ONE RK</option>
+	<option value="1bhk">ONE BHK</option>
+	<option value="2bhk">TWO BHK</option>
+	<option value="3bhk">THREE BHK</option>
+    </select>
+    <p><label for="budget"><b>BUDGET</b></label>
+    <input type="text" placeholder="Enter budget" name="bu" required>
+    <label for="furtniture"><b>FURNITURE</b></label>
+    <input type="radio" name="f" value="yes" checked>YES
+	<input type="radio" name="f" value="no" checked> NO<br>
+      <button type="submit" class="signupbtn">SUBMIT</button>
+    </div>
+  </div>
+</form>
+</body>
+</html>

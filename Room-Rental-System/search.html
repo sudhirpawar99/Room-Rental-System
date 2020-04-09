@@ -1,0 +1,28 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="lawyer.css">
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+</head>
+<header>
+<button onclick="goBack()">Go Back</button>
+</header>
+<body>
+<form action="search.jsp" method="post">
+  <div class="container">
+  <h1 style="color:red">FIND LAWYER</h1>
+    <label for="uname" style="color:red"><b>CITY</b></label>
+    <input type="text" placeholder="Enter city" name="city" required>
+
+    <label for="psw" style="color:red"><b>LOCALITY</b></label>
+    <input type="text" placeholder="Enter locality" name="local" required>
+
+    <button type="submit">FIND LAWYER</button>
+    </label>
+  </div>
+</form>
+</body>
+</html>

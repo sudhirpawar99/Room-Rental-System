@@ -1,0 +1,41 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="onrent.css">
+</head>
+<header>
+<button onclick="goBack()">Go Back</button>
+</header>
+<body>
+<form action="onsel.jsp" style="border:1px solid #ccc">
+  <div class="container">
+    <h1>FOR SEL</h1>
+    <p>PLEASE ENTERT FOLLOWING DEATAIL</p>
+    <hr>
+    <label for="name"><b>NAME</b></label>
+    <input type="text" placeholder="Enter Name" name="name" required>
+
+    <label for="mobile"><b>APARTMENT</b></label>
+    <input type="text" placeholder="Enter APARTMENT NAME" name="ap" required>
+
+    <label for="city"><b>CITY</b></label>
+    <input type="text" placeholder="Enter city" name="city" required>
+    <label for="psw"><b>LOCALITY</b></label>
+    <input type="text" placeholder="Enter locality" name="locality" required>
+	<label for="room"><b>SELECT THE ROOM</b></label>&nbsp&nbsp
+	<select name="room">
+	<option value="1rk">ONE RK</option>
+	<option value="1bhk">ONE BHK</option>
+	<option value="2bhk">TWO BHK</option>
+	<option value="3bhk">THREE BHK</option>
+    </select>
+	<p> <label for="furtniture"><b>FURNITURE</b></label>
+    <input type="radio" name="f" value="yes" checked>YES
+	<input type="radio" name="f" value="no" checked> NO<br>
+   	<p><label for="budget"><b>PRICE</b></label>
+    <input type="text" placeholder="Enter price" name="price" required>
+      <button type="submit" class="signupbtn">SUBMIT</button>
+    </div>
+	</div>
+	</form>
+	</body>
+	</html>

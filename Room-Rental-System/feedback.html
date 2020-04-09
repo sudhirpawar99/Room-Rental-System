@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif; width: 1350px;
+  border: 2px solid gray;
+  background-image: url('room1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+ }
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #90ee90;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  opacity: 0.9;
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #ee90ee;
+  padding: 20px;
+}
+</style>
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+</head>
+<header>
+<button onclick="goBack()">Go Back</button>
+</header>
+<body>
+<h3>FEEDBACK Form</h3>
+
+<div class="container">
+  <form action="feedback.jsp">
+    <label for="fname">NAME</label>
+    <input type="text" id="fname" name="name" placeholder="Your name.." required>
+
+    <label for="lname">EMAIL</label>
+    <input type="text" id="lname" name="email" placeholder="Your email.." required>
+
+    <label for="subject">WRITE FEEDBACK</label>
+    <textarea id="subject" name="tt" placeholder="Write something.." style="height:200px" required></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>

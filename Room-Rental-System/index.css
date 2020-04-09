@@ -1,0 +1,79 @@
+.b{
+  width: 1350px;
+  /*height: 500px*/
+  border: 2px solid gray;
+  background-image: url('room1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+  #logo {
+  display: inline-block;
+  float: left;
+  height: 60px;
+  width: auto; 
+  border-radius: 50%; 
+}
+ul.a{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #999999;
+}
+.second
+{
+	width: 1350px;
+	height:100px;
+	/*border: 1px solid gray*/;
+	margin-top: 30px;
+
+}
+.third
+{
+	width: 1350px;
+	height:00px;
+	/*border: 1px solid gray*/;
+	margin-top: 100px;
+
+}
+section
+{
+	float: left;
+}
+#s1
+{
+	margin-left: 200px;
+	padding-top: 100px;
+  
+}
+#s2
+{
+	margin-left: 600px;
+	padding-top: 100px;
+}
+#s3
+{
+	margin-left: 100px;
+}
+#s4
+{
+	margin-left: 200px;
+}
+#s5
+{
+	margin-left: 300px;
+}
